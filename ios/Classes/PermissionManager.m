@@ -83,8 +83,6 @@
             #else
             return [LocationPermissionStrategy new];
             #endif
-        case PermissionGroupMediaLibrary:
-            return [MediaLibraryPermissionStrategy new];
         case PermissionGroupPhotos:
             return [PhotoPermissionStrategy new];
         case PermissionGroupReminders:
